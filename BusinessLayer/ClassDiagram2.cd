@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BusinessLayer.AddressBusiness" Collapsed="true">
+    <Position X="12.5" Y="1.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAACAAAAIIAEAAAAAgAAEAAAAAAAIAQAEAApE=</HashCode>
+      <FileName>AdderessBusiness.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusinessLayer.BranchBusiness" Collapsed="true">
+    <Position X="14.75" Y="2" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAACAAAAAAAAAAAAQgAAGAAAACAAAAQAEAAAA=</HashCode>
+      <FileName>BranchBusiness.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusinessLayer.ComplaintBusiness" Collapsed="true">
+    <Position X="12.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAkAAACAAAAIAAAAACAQgAAEAAAAAAAAAQAkAAgA=</HashCode>
+      <FileName>ComplaintBusiness.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusinessLayer.CustomerBusiness">
+    <Position X="5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQCAEAAACAAAAAAAAEAAAAgAAEAAAAAAABAQAEAAgA=</HashCode>
+      <FileName>CustomerBusiness.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusinessLayer.EmployeeBusiness" Collapsed="true">
+    <Position X="8" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQBAEAAACAAAAAABIAAAAAggAEAAAAAAAAAQAEAAAA=</HashCode>
+      <FileName>EmployeeBusiness.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusinessLayer.GoodsBusiness" Collapsed="true">
+    <Position X="12.75" Y="2" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAQASAAAAAAAIAAAAAgAAEAAAAAAQAAQAEAAAA=</HashCode>
+      <FileName>GoodsBusiness.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusinessLayer.OrderBusiness" Collapsed="true">
+    <Position X="14.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAkAAkCAgBCIAAAAAAAAgAAUAAAAAEAAARCkAAgA=</HashCode>
+      <FileName>OrderBusiness.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusinessLayer.QuestionBusiness" Collapsed="true">
+    <Position X="10.25" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAACIgAAIAAAAAAAAgAAEAAAABAQAAQAEAAgA=</HashCode>
+      <FileName>QuestionBusiness.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusinessLayer.SolutionBusiness" Collapsed="true">
+    <Position X="11" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAEEgCACAgAAIAAAAAAAAgAAEAAAABAAAAQAEAAAA=</HashCode>
+      <FileName>SolutionBusiness.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusinessLayer.TrafficBusiness" Collapsed="true">
+    <Position X="10.25" Y="1.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAUAAACAAAAAQAAAAAAAmAAEAAABBAAAAQAEAAAA=</HashCode>
+      <FileName>TrafficBusiness.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusinessLayer.User_accountBusiness" Collapsed="true">
+    <Position X="14.5" Y="1.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>ACQAAEAAACAAAAIAAAAAAAAgAAEAAIACAAAAQAEAAAA=</HashCode>
+      <FileName>User_accountBusiness.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

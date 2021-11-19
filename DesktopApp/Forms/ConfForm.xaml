@@ -1,0 +1,90 @@
+﻿<Page x:Class="DesktopApp.Forms.ConfForm"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:DesktopApp.Forms"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Confirm">
+
+    <DockPanel Margin="10">
+        <StackPanel DockPanel.Dock="Top">
+            <TextBlock Text="Podrobnosti objednávky" FontSize="20" FontWeight="Bold" TextAlignment="Center"></TextBlock>
+        </StackPanel>
+        <StackPanel DockPanel.Dock="Right" Margin="10,0">
+            <StackPanel.Resources>
+                <Style TargetType="Button">
+                    <Setter Property="Margin" Value="0,0,0,5" />
+                </Style>
+            </StackPanel.Resources>
+            <TextBlock Text=" Možnosti " Margin="2"></TextBlock>
+            <Button Name="btnCancel" Click="btnCancel_Click" Content="Zrušit"></Button>
+            <Button Name="btnEdit" Click="btnEdit_Click" Content="Upravit"></Button>
+            <Button Name="btnConfirm" Click="btnConfirm_Click" Content=" Potvrdit "></Button>
+        </StackPanel>
+        <StackPanel>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"></RowDefinition>
+                    <RowDefinition Height="*"></RowDefinition>
+                </Grid.RowDefinitions>
+                <TextBlock Grid.Row="0" Grid.Column="0" Text="Zákazník:" FontSize="15" FontWeight="Bold"></TextBlock>
+                <TextBlock Grid.Row="0" Grid.Column="1" Text="Objednávka:" FontSize="15" FontWeight="Bold"></TextBlock>
+                <!-- Customer -->
+                <StackPanel Grid.Row="1" Grid.Column="0">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="60"></ColumnDefinition>
+                            <ColumnDefinition Width="*"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"></RowDefinition>
+                            <RowDefinition Height="*"></RowDefinition>
+                            <RowDefinition Height="*"></RowDefinition>
+                        </Grid.RowDefinitions>
+                        <TextBlock Grid.Row="0" Grid.Column="0" FontWeight="Bold" Text="Jméno: "></TextBlock>
+                        <TextBlock Grid.Row="0" Grid.Column="1" x:Name="firstName"></TextBlock>
+                        <TextBlock Grid.Row="1" Grid.Column="0" FontWeight="Bold" Text="Přijmení: "></TextBlock>
+                        <TextBlock Grid.Row="1" Grid.Column="1" x:Name="lastName"></TextBlock>
+                        <TextBlock Grid.Row="2" Grid.Column="0" FontWeight="Bold" Text="Tel.: "></TextBlock>
+                        <TextBlock Grid.Row="2" Grid.Column="1" x:Name="phoneNumber"></TextBlock>
+                    </Grid>
+                </StackPanel>
+                <!-- Order -->
+                <StackPanel Grid.Row="1" Grid.Column="1">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="100"></ColumnDefinition>
+                            <ColumnDefinition Width="*"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"></RowDefinition>
+                            <RowDefinition Height="*"></RowDefinition>
+                            <RowDefinition Height="*"></RowDefinition>
+                            <RowDefinition Height="*"></RowDefinition>
+                            <RowDefinition Height="*"></RowDefinition>
+                            <RowDefinition Height="*"></RowDefinition>
+                        </Grid.RowDefinitions>
+                        <TextBlock Grid.Row="0" Grid.Column="0" FontWeight="Bold" Text="Id: "></TextBlock>
+                        <TextBlock Grid.Row="0" Grid.Column="1" x:Name="orderId"></TextBlock>
+                        <TextBlock Grid.Row="1" Grid.Column="0" FontWeight="Bold" Text="Stav: "></TextBlock>
+                        <TextBlock Grid.Row="1" Grid.Column="1" x:Name="state"></TextBlock>
+                        <TextBlock Grid.Row="2" Grid.Column="0" FontWeight="Bold" Text="Datum zadání: "></TextBlock>
+                        <TextBlock Grid.Row="2" Grid.Column="1" x:Name="startDate"></TextBlock>
+                        <TextBlock Grid.Row="3" Grid.Column="0" FontWeight="Bold" Text="Datum ukončení: "></TextBlock>
+                        <TextBlock Grid.Row="3" Grid.Column="1" x:Name="endDate"></TextBlock>
+                        <TextBlock Grid.Row="4" Grid.Column="0" FontWeight="Bold" Text="Popis: "></TextBlock>
+                        <TextBlock Grid.Row="4" Grid.Column="1" x:Name="description"></TextBlock>
+                        <TextBlock Grid.Row="5" Grid.Column="0" FontWeight="Bold" Text="Typ: "></TextBlock>
+                        <TextBlock Grid.Row="5" Grid.Column="1" x:Name="type"></TextBlock>
+                    </Grid>
+                </StackPanel>
+            </Grid>
+        </StackPanel>
+    </DockPanel>
+</Page>
